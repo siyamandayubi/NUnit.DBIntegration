@@ -2,17 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Siyamand Ayubi</Authors>
+    <Company>Global Blue</Company>
+    <Description>The project extends the NUnit to do integration tests involving database easily.</Description>
+    <PackageProjectUrl>https://github.com/siyamandayubi/NUnit.DBIntegration/tree/master</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/siyamandayubi/NUnit.DBIntegration/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/siyamandayubi/NUnit.DBIntegration</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="NUnit" Version="3.10.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.4.1" />
     <PackageReference Include="System.Data.SqlClient" Version="4.4.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="System.Configuration">
-      <HintPath>..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Configuration.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
